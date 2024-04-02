@@ -1,0 +1,196 @@
+*{
+    margin:0;
+}
+body{
+    overflow-x: hidden;
+}
+.logo1{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;    
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 17px;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+ul{
+  position: absolute;
+  right: 50px;
+}
+
+
+.square{
+    display: flex;
+    align-items: center;
+    /* border: red solid; */
+    height: 100vh;
+    
+    
+}
+.fb{
+   
+    margin-left: 50px;
+    
+    
+}
+.square .enter{
+   
+    background-color: white;
+    height:360px ;
+    width: 380px;
+    margin-left: 200px;
+    box-shadow: 0 0 10px 0px;
+    text-align: center;  
+    /* border: red solid;
+}
+.switch{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    /* box-shadow: 0 0 20px 9px green;
+    border-radius: 30px; */
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    
+   
+}
+#line{
+    /* position: absolute; */
+    border-radius: 20px;
+    display: flex;
+    width: 80px;
+    height: 3px;
+    background-color: rgb(245, 144, 13);
+    margin-left:5% ;
+
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    transition: 0.5s;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.entry1{
+    width: 90%;
+    padding: 10px 0;
+    margin: 35px 0;
+    /* border-left:0; */
+    /* border-right:0;
+    border-top:0;
+    border-bottom: 1px solid #999; */
+}
+.entry2{
+    width: 90%;
+    padding: 10px 0;
+    margin: 5px;
+    /* border-left:0; */
+    /* border-right:0;
+    border-top:0;
+    border-bottom: 1px solid #999; */
+}
+.login-btn{
+    width: 90%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background-color: orange;
+    position: relative;
+    left: 5%;
+    border-radius: 30px;
+    top: 5%;
+    
+}
+.forgot{
+    position: relative;
+    top: 8%;
+}
+#login{
+    left: 50px;
+    
+}
+#register{
+    left: 450px;
+
+}
+
+
+.end{
+    margin-top: -102px;
+    position: relative;
+    top: 200px;
+    background-color: black;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.end h3{
+    color: white;
+}
+.end h5{
+    display: flex;
+    line-height: 1px;
+    text-align: center;
+    color: rgb(63, 57, 57);
+}
+#dow{
+    position: relative;
+    transform: translate(70px,30px);
+}
+#redst{
+    position: relative;
+    transform: translate(-35px,40px);
+}
+#red{
+    position: relative;
+    transform: translate(87px,10px);
+}
+#use{
+    position: relative;
+    transform: translate(-110px,24px);
+}
+#follo{
+    /* position: relative; */
+    line-height: 30px;
+    transform: translate(-130px,24px);
+    text-align: center;
+   
+}
+
+#linex{
+    background-color: white;
+    position: absolute;
+    height: 1px;
+    width: 1150px;
+    transform: translate(55px,200px);
+} 
+.copyrig{
+    position: absolute;
+    transform: translate(10px,210px);
+}

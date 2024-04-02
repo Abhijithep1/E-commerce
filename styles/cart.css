@@ -1,0 +1,146 @@
+*{
+    margin:0;
+}
+body{
+    overflow-x: hidden;
+}
+.logo1{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;    
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 17px;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+ul{
+  position: absolute;
+  right: 50px;
+}
+.tabl{
+    margin-top: 10%;
+    display:flex ;
+    justify-content: center;
+}
+table{
+    border-spacing: 0;
+}
+th{
+    background-color: orangered;
+    color: white;
+}
+.img{
+    display: flex;
+    margin-top: 1%;
+}
+#tb1{
+    padding-right: 48%;
+}
+.number{
+    height: 20px;
+    width: 20px;
+}
+#tb2{
+    padding-right: 20%;
+}
+#tb3{
+    padding-left: 14%;
+}
+.pri5{
+    float: right;
+    margin-top: -80px;
+}
+.pic1{
+    font-size: large;
+}
+.pri1{
+    font-size: medium;
+}
+.pri2{
+    font-size: small;
+    color: orangered;
+}
+.line{
+    width: 434px;
+    height: 2px;
+    background-color: orangered;
+}
+.left{
+    float:right;
+    margin-right: 12%;
+}
+button{
+    background-color: orangered;
+    color: white;
+    border-radius:7px;
+    float: right;
+    padding: 7px;
+}
+.dollr{
+    float: right;
+}
+.end{
+    position: relative;
+    top: 200px;
+    background-color: black;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+.end h3{
+    color: white;
+}
+.end h5{
+    display: flex;
+    line-height: 1px;
+    text-align: center;
+    color: rgb(63, 57, 57);
+}
+#dow{
+    position: relative;
+    transform: translate(70px,30px);
+}
+#redst{
+    position: relative;
+    transform: translate(-35px,40px);
+}
+#red{
+    position: relative;
+    transform: translate(87px,10px);
+}
+#use{
+    position: relative;
+    transform: translate(-110px,24px);
+}
+#follo{
+    /* position: relative; */
+    line-height: 30px;
+    transform: translate(-130px,24px);
+    text-align: center;
+   
+}
+
+#linex{
+    background-color: white;
+    position: absolute;
+    height: 1px;
+    width: 1150px;
+    transform: translate(55px,200px);
+} 
+.copyrig{
+    position: absolute;
+    transform: translate(10px,210px);
+}
